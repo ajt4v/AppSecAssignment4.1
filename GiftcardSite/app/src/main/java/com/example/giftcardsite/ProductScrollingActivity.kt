@@ -30,7 +30,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class ProductScrollingActivity : AppCompatActivity(), SensorEventListener, LocationListener {
+class ProductScrollingActivity : AppCompatActivity() {
     var loggedInUser: User? = null
     
     private var lastEvent : String? = null
