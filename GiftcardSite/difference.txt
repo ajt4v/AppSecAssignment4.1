@@ -1,0 +1,13 @@
+2.1
+
+1. Explicit intents and implicit intents - implicit specifies action to be performed, but not component or application to do it, explicit specifies action and component or application to execute action
+
+2. Explicit intents
+
+3. Implicit intent
+
+4. Explicit intent
+
+5. Explicit intent
+
+Changed the implicit intent in "secondfragment.kt" to be explicit, using the explicit intent language from "thirdfragment.kt".  With the implicit intent in the secondfragment, any application, including a malicious one, that had the default intent declared in its manifest file could process the implicit intent and obtain sensitive data.
