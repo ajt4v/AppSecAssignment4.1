@@ -1,0 +1,4 @@
+The id of the card being used is sent in the post request as part of the URL, which exposes the card number even if it is via HTTPS.  The server should be modified so that this kind of sensitive data is passed in forms in the body of the post request. The server also appears to verify that there is a valid token, not whether that token belongs to the actual card owner.  Employing an authentication solution like "vouch" that can add a value to an HTTP header to allow the server to identify which user is actually making the requests. [https://developer.okta.com/blog/2018/08/28/nginx-auth-request]
+
+
+
